@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>
+					/Defs/DesignationCategoryDef[defName="Orders"]/specialDesignatorClasses
+				</xpath>
+				<value>
+					<li>Replace_Stuff_Compatibility.Designator.BatchReplant</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
